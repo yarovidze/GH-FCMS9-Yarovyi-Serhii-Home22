@@ -1,0 +1,152 @@
+// Page: Content
+// -----------------------------------------------------------------------------
+.about-us {
+  margin: 50px 0;
+  & .year {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  & .year-description {
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 2em;
+    font-weight: 400;
+  }
+}
+.praktis-area {
+  background-color: black;
+  padding: 50px 0;
+  font-size: 14px;
+  font-weight: 200;
+  & .item-praktice-area {
+    margin: 20px 0;
+  }
+  & .icon-praktice-area {
+    padding: 5px;
+    text-align: right;
+  }
+
+}
+.items-content {
+  margin: 20px 0;
+}
+.opinion {
+  padding: 75px 0;
+  & .opinion-image {
+    box-shadow: 15px 15px 0 0 $main-color;
+  }
+}
+.recent-publication {
+  border-bottom: 4px solid $main-color;
+  & .autor-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 200;
+    & .autor {
+      display: flex;
+    }
+    & .date {
+      display: flex;
+      font-style: italic;
+    }
+
+  }
+}
+
+.faq-section {
+  background-color: black;
+  padding: 50px 0;
+  font-size: 14px;
+  font-weight: 200;
+  & .list-content {
+    padding: 20px;
+    background-color: $main-color;
+    color: black;
+    border-radius: 3px;
+  }
+
+  & .list-description-item__field-description {
+    padding-bottom: 5px;
+    line-height: 2em;
+    border-bottom: 2px solid $main-color;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+.slide__grid {
+  justify-content: center;
+}
+.section-members {
+  padding: 50px 0;
+  border-bottom: 1px solid grey;
+}
+.container-min {
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+  & h2 {
+    margin-bottom: 1em;
+  }
+  & p {
+    line-height: 0.5;
+    font-size: 16px;
+  }
+}
+.content-description {
+  margin-bottom: 50px;
+}
+.members-item {
+  position: relative;
+  cursor: pointer;
+  & .soc-url {
+    text-align: left;
+    margin-top: 10px;
+    padding-inline-start: 0;
+  }
+  & h3 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  & .members-item-content {
+    padding: 10px 20px;
+    position: absolute;
+    background-color: #df001f;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+  }
+  & .members-item-soc {
+    display: none;
+    padding: 10px 20px;
+    position: absolute;
+    background-color: #df001f;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+  }
+  &:hover {
+    & .members-item-soc {
+      display: block;
+      transition: 1s;
+    }
+    & .members-item-content {
+      display: none;
+      transition: 1s;
+    }
+  }
+}
+.col-custom {
+  & img {
+    padding: 10px 5px;
+  }
+
+}
+.soundcloud-player {
+  margin: 10px 0;
+}

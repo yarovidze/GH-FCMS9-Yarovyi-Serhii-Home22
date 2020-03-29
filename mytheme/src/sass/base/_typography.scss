@@ -1,0 +1,62 @@
+body {
+  font-size: 16px;
+  font-family: $secondary-font;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  line-height: 2em;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-family: $main-font;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 1em;
+  font-family: $main-font;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1em;
+  font-family: $main-font;
+
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 2em;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+
+.white {
+  color: $light-color;
+}
+.center {
+  text-align: center;
+}
+.descr-dekor {
+  color: $main-color;
+  font-family: $decoration-font;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 0;
+
+}
+

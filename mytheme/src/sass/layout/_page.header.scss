@@ -1,0 +1,80 @@
+// Page: Header
+// -----------------------------------------------------------------------------
+.navbar-collapse {
+  z-index: 1000;
+  background-color: $main-color;
+}
+.navbar-toggler {
+  background-color: white;
+  border: 2px solid #ffffff;
+  border-radius: 0.25rem;
+}
+.sticky-top {
+  height: 90px;
+  position: inherit;
+}
+
+.bg-custom {
+  background-color: $main-color;
+}
+
+.nav-item {
+  border-bottom: 4px solid transparent;
+  padding: 0 5px;
+  font-family: $secondary-font;
+  color: $light-color;
+  text-transform: uppercase;
+
+  &:hover {
+    border-bottom: 4px solid $light-color;
+    transition: 1s;
+  }
+
+  & a {
+    color: $light-color !important;
+    font-weight: 500;
+  }
+}
+
+
+.header-section {
+  position: relative;
+
+  & .content-header-section {
+    text-align: center;
+    padding-top: 100px;
+    & h1 {
+      font-size: 100px;
+      color: #df001f;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    & .content-description {
+      font-family: $decoration-font;
+      font-size: 28px;
+      color: $dark-color;
+      font-size: 60px;
+    }
+  }
+}
+
+.soc-url {
+  margin-bottom: 0;
+  text-align: right;
+  & li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+    & a {
+      color: $light-color;
+      &:hover {
+        text-decoration: none;
+        text-shadow: 0px 0px 10px #fff;
+      }
+    }
+  }
+}
+
+
+
+

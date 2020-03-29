@@ -1,0 +1,121 @@
+.btn-transparent {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  font-family: $main-font;
+  color: $light-color;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px 40px;
+  outline: none;
+  border-radius: 27px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $light-color;
+  border-image: initial;
+  &:hover {
+    border-color: $main-color;
+    background-color: $main-color;
+  }
+}
+.btn-main {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  font-family: $secondary-font;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: $main-color;
+  color: $light-color;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  outline: none;
+  border-radius: 27px;
+  border-width: 2px;
+  border-image: initial;
+  &:hover {
+    opacity: 0.8;
+  }
+  a {
+    text-decoration: none;
+    color: $light-color;
+    &:hover {
+      text-decoration: none;
+      color: $light-color;
+    }
+  }
+}
+.btn-primary {
+  border: transparent;
+  color: $main-color;
+  background-color: transparent;
+  font-size: 30px;
+  &:after {
+    content: "\279E";
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+  &:hover {
+    opacity: 0.8;
+    background-color: transparent;
+    color: $main-color;
+
+  }
+}
+.btn-light {
+  color: $main-color!important;
+  background-color: $light-color;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 27px;
+  display: inline-block;
+  & a {
+    color: $main-color!important;
+    text-decoration: none;
+    &:hover {
+      background-color: transparent;
+      color: $light-color;
+      text-shadow: none;
+      transition: 1s;
+    }
+  }
+  &:hover {
+    opacity: 0.8;
+    background-color: $light-color;
+    transition: 1s;
+  }
+}
+
+.slick__arrow {
+  bottom: auto;
+  height: 2px;
+  left: 0;
+  margin-top: -1px;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 2;
+  :before {
+    color: $main-color;
+  }
+  &:after {
+    color: $main-color;
+  }
+}
+.slick-prev {
+  left: auto !important;
+  right: 55px !important;
+}
+.slick-next {
+  right: 15px !important;
+}
+

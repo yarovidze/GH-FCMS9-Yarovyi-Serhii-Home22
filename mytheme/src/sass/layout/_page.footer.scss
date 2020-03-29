@@ -1,0 +1,57 @@
+// Page: Footer
+// -----------------------------------------------------------------------------
+.page__footer {
+
+}
+
+.block--webform {
+  max-width: 800px;
+  margin: 50px auto;
+  border-bottom: 3px solid grey;
+
+  & .form-control {
+    outline: none;
+    border: none;
+    border-radius: 0;
+    font-family: $main-font;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    font-size: 20px;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+.page__copyright {
+  color: $dark-color;
+  border-top: 1px solid gainsboro;
+  text-align: center;
+  padding: 30px 0;
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  & .nav-item {
+    & a {
+      color: $dark-color !important;
+      &:hover {
+        color: grey !important;
+      }
+    }
+  }
+  & p {
+    margin-bottom: 0;
+  }
+  & .decor-text {
+     color: $main-color;
+     font-family: $decoration-font;
+     font-size: 30px;
+   }
+}
+ .decor-text-light {
+  color: $light-color;
+  font-family: $decoration-font;
+  font-size: 50px;
+}
+
